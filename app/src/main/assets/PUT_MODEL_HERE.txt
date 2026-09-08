@@ -1,0 +1,9 @@
+Run tools\prepare_model.ps1 from PowerShell.
+
+It exports the pretrained Ultralytics YOLO26n detector to ONNX and copies:
+
+    yolo26n.onnx
+
+into this assets folder.
+
+The final APK then runs YOLO directly on the Android phone using ONNX Runtime.

@@ -1,0 +1,9 @@
+yolo26n.onnx
+yolo26n.pt
+app/src/main/assets/yolo26n.onnx
+*.apk
+*.aab
+.gradle/
+.idea/
+**/build/
+local.properties
